@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(to top, #134450, #083743), fixed;
+}
+.main-box {
+    width: 90%;
+    border: 5px white solid;
+    border-radius: 20px;
+    margin: 3% auto;
+    height: 90%;
+    box-shadow: 0px 0px 14px 3px rgba(41,114,111,0.56);
+    -webkit-box-shadow: 0px 0px 14px 3px rgba(41,114,111,0.56);
+    -moz-box-shadow: 0px 0px 14px 3px rgba(41,114,111,0.56);
+}
