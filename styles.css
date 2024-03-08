@@ -1,0 +1,171 @@
+body {
+    margin: 0px;
+}
+
+.background {
+    background-image: url("aldebaran-s-qtRF_RxCAo0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+    filter: brightness(50%);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.bg-fill {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+    filter: blur(3px) brightness(30%);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.main-box {
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    margin: 0 auto;
+    top: 190px;
+    display: flex;
+    padding: 30px;
+    width: 80%;
+    height: 350px;
+}
+#box1 {
+    padding: 3px;
+    width: 25%;
+    filter: brightness(70%);
+    height: 100%;
+    display: flex;
+    background-color: #082141bb;
+    background-image: url("hermann_bondi.jpg");
+    border-radius: 20px;
+    transform: scale(1.1);
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: transform 0.35s ease-in-out;
+}
+#box1:hover .text1{
+    transform: scale(1.2);
+    background-image: none;
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #082141;
+    opacity: 1;
+}
+
+.text1 {
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+    overflow: auto;
+    max-height: 100%;
+    padding: 10px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.text1::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar width */
+    height: 0; /* Remove scrollbar height */
+}
+#box2 {
+    padding: 3px;
+    width: 25%;
+    filter: brightness(70%);
+    height: 100%;
+    display: flex;
+    background-color: #082141bb;
+    background-image: url("richard_tolman.jpg");
+    border-radius: 20px;
+    transform: scale(1.1);
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: transform 0.35s ease-in-out;
+}
+#box2:hover .text2{
+    transform: scale(1.2);
+    background-image: none;
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #082141;
+    opacity: 1;
+}
+
+.text2 {
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+    overflow: auto;
+    max-height: 100%;
+    padding: 10px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.text2::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar width */
+    height: 0; /* Remove scrollbar height */
+}
+#box3 {
+    padding: 3px;
+    width: 25%;
+    filter: brightness(70%);
+    height: 100%;
+    display: flex;
+    background-color: #082141bb;
+    background-image: url("georges_lemaitre.jpg");
+    border-radius: 20px;
+    transform: scale(1.1);
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: transform 0.35s ease-in-out;
+}
+#box3:hover .text3{
+    transform: scale(1.2);
+    background-image: none;
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #082141;
+    opacity: 1;
+}
+
+.text3 {
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+    overflow: auto;
+    max-height: 100%;
+    padding: 10px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.text3::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar width */
+    height: 0; /* Remove scrollbar height */
+}
