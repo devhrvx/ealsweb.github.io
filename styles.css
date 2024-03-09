@@ -81,6 +81,7 @@ h2 {
     background: #4A0488;
     color: white;
     transition: 0.5s;
+    transform: scale(1.1);
 }
 .space-img {
     position: absolute;
@@ -91,5 +92,9 @@ h2 {
     padding: 0;
     width: 50%;
     height: 50%;
-    z-index: -1;
+    transition: 0.5s;
+}
+.space-img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
