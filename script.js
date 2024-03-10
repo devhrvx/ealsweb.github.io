@@ -1,9 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
     var exploreBtn = document.getElementById('explore-btn');
-    exploreBtn.addEventListener('click', function() {
+    function scrollSmooth(y) {
         window.scrollTo({
-            top: 432.79998779296875,
-            behavior: 'smooth',
+            top: y,
+            behavior: 'smooth'
         });
+    }
+    exploreBtn.addEventListener('click', function() {
+        scrollSmooth(642.40);
+    });
+    var nextBtn = document.getElementById('next-btn');
+    nextBtn.addEventListener('click', function() {
+        window.location.href = 'universe.html';
     });
 });
