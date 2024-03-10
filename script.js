@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     exploreBtn.addEventListener('click', function() {
-        scrollSmooth(642.40);
+        scrollSmooth(672);
     });
     var nextBtn = document.getElementById('next-btn');
     nextBtn.addEventListener('click', function() {
