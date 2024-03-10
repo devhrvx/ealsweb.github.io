@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(to right, #004AAD, #4A0488);
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #6236f3ae; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #b949b9c0; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #350075; 
+}
+@keyframes loadAnim {
+    0% {
+        margin-top: 30px;
+        opacity: .4;
+    }
+    100% {
+        margin-top: 50px;
+        opacity: 1;
+    }
+    
+}
+@keyframes loadAnim2 {
+    0% {
+        opacity: .3 ;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
+.header {
+    width: fit-content;
+    margin: 50px auto 0 74px;
+    animation: loadAnim 0.8s ease-out;
+    transition: 0.5s;
+    padding: 0;
+    position: relative;
+    display: absolute;
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+#header-txt {
+    margin: 0;
+    font-size: 40px;
+}
+.main-content {
+    animation: loadAnim2 0.8s ease-out;
+    position: inherit;
+    width: 90%;
+    height: 80vh;
+    margin: 0 auto;
+    /* border: 3px white solid; */
+    border-top: white 5px solid;
+}
+.box-1 {
+    padding: 0;
+    animation: loadAnim2 0.8s ease-out;
+    margin: 0;
+    margin-top: 30px;
+    left: 10%;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    /* border: white 2px solid; */
+}
+.box-2 {
+    animation: loadAnim2 0.8s ease-out;
+    margin: 0;
+    margin-top: 16.5%;
+    left: 10%;
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    /* border: white 2px solid; */
+}
+#header-steady {
+    animation: loadAnim2 0.8s ease-out;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    font-size: 65px;
+}
+.box-3 {
+    animation: loadAnim2 0.8s ease-out;
+    margin: 0;
+    margin-top: 30px;
+    left: 43%;
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    border: white 2px solid;
+    border-radius: 5px;
+}
+a {
+    text-decoration: none;
+    color: #5bd9be;
+}
+a:hover {
+    color: #f0f0f0;
+}
+#p-steady {
+    animation: loadAnim2 0.8s ease-out;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+}
