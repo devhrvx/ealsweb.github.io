@@ -55,66 +55,46 @@ body {
     margin: 0;
     font-size: 40px;
 }
-.main-content {
+.container {
     animation: loadAnim2 0.8s ease-out;
-    position: inherit;
+    display: flex;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    flex-direction: row;
+    border: 5px white solid;
     width: 90%;
-    height: 80vh;
     margin: 0 auto;
-    /* border: 3px white solid; */
-    border-top: white 5px solid;
-}
-.box-1 {
+    height: 80vh;
     padding: 0;
-    animation: loadAnim2 0.8s ease-out;
-    margin: 0;
-    margin-top: 30px;
-    left: 10%;
-    position: absolute;
-    width: 30%;
-    height: 30%;
-    /* border: white 2px solid; */
 }
-.box-2 {
-    animation: loadAnim2 0.8s ease-out;
-    margin: 0;
-    margin-top: 16.5%;
-    left: 10%;
-    position: absolute;
-    width: 30%;
-    height: 40%;
-    /* border: white 2px solid; */
+.box1 {
+    margin: 0 auto;
+    height: 75vh;
+    width: 38%;
+    border: 3px white solid;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
 }
-#header-steady {
-    animation: loadAnim2 0.8s ease-out;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    color: white;
-    font-size: 65px;
+.box2 {
+    margin: 0 auto;
+    height: 70vh;
+    width: 58%;
+    border: 3px white solid;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
 }
-.box-3 {
-    animation: loadAnim2 0.8s ease-out;
-    margin: 0;
-    margin-top: 30px;
-    left: 43%;
-    position: absolute;
-    width: 50%;
-    height: 70%;
-    border: white 2px solid;
-    border-radius: 5px;
-}
-a {
-    text-decoration: none;
-    color: #5bd9be;
-}
-a:hover {
-    color: #f0f0f0;
-}
-#p-steady {
-    animation: loadAnim2 0.8s ease-out;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    color: white;
-    font-size: 17px;
-    margin: 0;
-    padding: 0;
-    font-weight: lighter;
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
 }
