@@ -20,121 +20,135 @@ body {
   ::-webkit-scrollbar-thumb:hover {
     background: #350075; 
   }
-.main-box {
-    position: relative;
-    padding: 0;
-    margin: 65px auto;
-    border-top: white 3px solid;
+
+.container {
+    border-top: 3px white solid;
     border-radius: 3px;
+    display: flex;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    flex-direction: row;
+    /* border: 5px white solid; */
+    width: 90%;
+    margin: 68px auto;
     height: 80vh;
-    width: 80%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: 0.5s;
-    text-align: center;
-}
-.text-box {
-    top: 25vh;
-    right: 0;
-    position: absolute;
-    display: absolute;
     padding: 0;
-    transition: 0.5s;
-    width: 45%;
+}
+
+.box1 {
+    padding: 0;
+    margin: 0px 0px 0px auto;
+    height: 75vh;
+    width: 50%;
+    /* border: 3px white solid; */
+    display: flex;
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+}
+.box2 {
+    flex-direction: column;
+    margin: 0 auto 0 0;
+    height: 70vh;
+    width: 38%;
+    /* border: 3px white solid; */
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+}
+.header1 {
+    box-sizing: border-box;
+    margin: 0 auto 0 0;
+    height: 68%;
+    width: 90%;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+}
+.buttonex {
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: 28%;
+    width: 90%;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
 }
 h1 {
-    margin: 0;
-    display: flex;
-    text-align: left;
     font-family: "Plus Jakarta Sans", sans-serif;
     color: white;
     font-size: 50px;
+    text-align: left;
+    margin: 100px 0 0 0;
 }
 h2 {
-    margin: 0;
-    display: flex;
     font-family: "Plus Jakarta Sans", sans-serif;
     color: white;
-    text-align: left;
     font-size: 15px;
     font-weight: lighter;
     letter-spacing: 3px;
-}
-.button {
-    position: absolute;
-    bottom: 23vh;
-    right: 20%;
-    margin: 0;
-    display: absolute;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    color: white;
     text-align: left;
-    font-size: 15px;
-    font-weight: lighter;
-    letter-spacing: 3px;
-    padding: 0  ;
-    border-radius: 5px;
-    background: transparent;
-    cursor: pointer;
-    transition: 0.5s;
+    margin: 0;
+
 }
 #explore-btn {
-    right: 0;
-    margin: 0;
-    display: absolute;
+    transition: 0.5s ease;
+    position: relative;
+    display: flex;
+    align-self: center;
+    top: 30%;
+    margin: 0 auto;
     font-family: "Plus Jakarta Sans", sans-serif;
-    color: white;
-    text-align: left;
+    font-weight: bolder;
     font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 4px;
+    text-align: center;
+    padding: 20px 35px;
     word-spacing: 6px;
+    letter-spacing: 4px;
+    color: white;
+    background-color: #487fff;
     border: transparent;
-    padding: 15px 25px;
     border-radius: 25px;
-    background: #487FFF;
-    cursor: pointer;
-    transition: 0.5s;
 }
 #explore-btn:hover {
-    background: #4A0488;
-    color: white;
-    transition: 0.5s;
-    transform: scale(1.1);
+    background-color: #4a0488;
+    top: 28%;
+    transition: 0.5s ease;
 }
 .space-img {
-    position: absolute;
-    bottom: 38vh;
-    left: 50px;
-    margin: 0;
-    display: absolute;
-    padding: 0;
-    width: 40%;
-    height: 40%;
-    z-index: -1;
-    transition: .5s;
-    animation: hovering 5s ease-in-out infinite alternate-reverse;
-}
+    display: flex;
+    width: 70%;
+    height: 93%;
+    transition: 0.5s ease;
+    animation: space-img-hover 2s infinite;
 
-@keyframes hovering {
+}
+@keyframes space-img-hover {
     0% {
-        bottom: 38vh;
+        transform: scale(1);
     }
-    20% {
-        bottom: 40vh;
-    
-    }
-    40% {
-        bottom: 38vh;
-    }
-    60% {
-        bottom: 40vh;
-    }
-    80% {
-        bottom: 38vh;
+    50% {
+        transform: scale(1.1);
     }
     100% {
-        bottom: 40vh;
+        transform: scale(1);
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
     }
 }
