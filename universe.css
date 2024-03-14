@@ -69,6 +69,7 @@ body {
     padding: 0;
 }
 .box1 {
+    
     margin: 0 auto;
     height: 75vh;
     width: 38%;
@@ -91,6 +92,44 @@ body {
     flex-basis: auto;
     align-self: center;
     order: 0;
+}
+
+.box-title {
+    display: flex;
+    justify-content: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    font-size: 50px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 0;
+    font-weight: bolder;
+    border: 3px white solid;
+    width: 95%;
+    height: 25%;
+}
+
+.box-content {
+    display: flex;
+    justify-content: left;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 3% auto;
+    padding: 0;
+    border: 3px white solid;
+    width: 95%;
+    height: 65%;
+}
+
+a {
+    text-decoration: none;
+    color: #87ea98;
+}
+a:hover {
+    text-decoration: none;
+    color: #68c477;
 }
 
 @media (max-width: 600px) {
