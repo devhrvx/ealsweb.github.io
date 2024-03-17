@@ -105,7 +105,8 @@ h2 {
 
 }
 #explore-btn {
-    transition: 0.5s ease;
+    cursor: pointer;
+    transition: 0.3s;
     position: relative;
     display: flex;
     align-self: center;
@@ -119,14 +120,14 @@ h2 {
     word-spacing: 6px;
     letter-spacing: 4px;
     color: white;
-    background-color: #487fff;
+    background-color: #8e9cbc;
     border: transparent;
     border-radius: 25px;
 }
 #explore-btn:hover {
-    background-color: #4a0488;
+    background-color: #a78cbe;
     top: 28%;
-    transition: 0.5s ease;
+    transition: 0.3s;
 }
 .space-img {
     display: flex;

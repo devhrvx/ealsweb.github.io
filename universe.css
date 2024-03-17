@@ -3,22 +3,22 @@ body {
     overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #6236f3ae; 
+    background: #fcfcfcae; 
   }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #b949b9c0; 
+    background: #f7f7f7c0; 
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #350075; 
+    background: #858585; 
 }
 @keyframes loadAnim {
     0% {
@@ -56,13 +56,14 @@ body {
     font-size: 40px;
 }
 .container {
-    animation: loadAnim2 0.8s ease-out;
+    animation: loadAnim2 0.5s ease-out;
     display: flex;
     justify-content: normal;
     align-items: normal;
     align-content: normal;
     flex-direction: row;
-    border: 5px white solid;
+    border-top: 3px white solid;
+    border-radius: 3px;
     width: 90%;
     margin: 0 auto;
     height: 80vh;
@@ -73,7 +74,7 @@ body {
     margin: 0 auto;
     height: 75vh;
     width: 38%;
-    border: 3px white solid;
+    border: 3px white transparent;
     display: block;
     flex-grow: 0;
     flex-shrink: 1;
@@ -86,14 +87,26 @@ body {
     height: 70vh;
     width: 58%;
     border: 3px white solid;
+    border-radius: 10px;
     display: block;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
     align-self: center;
     order: 0;
+    cursor: pointer;
+    transition: .5s;
 }
-
+.box2:hover {
+    border: 3px #6599b6 solid;
+    transition: 0.5s;
+    transform: rotate(1deg);
+}
+.box2:active {
+    border: 3px #007ac5 solid;
+    transition: 0.5s;
+    transform: rotate(-1deg);
+}
 .box-title {
     display: flex;
     justify-content: center;
@@ -104,21 +117,42 @@ body {
     margin-top: 5%;
     padding: 0;
     font-weight: bolder;
-    border: 3px white solid;
+    border: 3px white transparent;
     width: 95%;
     height: 25%;
 }
+#img-content {
+    width: 100%;
+    height: 92%;
+    object-fit: contain;
+}
+#img-content:active {
+    opacity: .5;
+    transition: .5s;
+}
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-weight: lighter;
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
+}
 .box-content {
+    overflow-y: scroll;
     display: flex;
     justify-content: left;
     font-family: "Plus Jakarta Sans", sans-serif;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: lighter;
     margin: 3% auto;
     padding: 0;
-    border: 3px white solid;
+    border: 3px white transparent;
     width: 95%;
     height: 65%;
 }
