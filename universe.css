@@ -69,6 +69,9 @@ body {
     height: 80vh;
     padding: 0;
 }
+#header-txt {
+    cursor: unset;
+}
 .box1 {
     
     margin: 0 auto;
@@ -101,11 +104,17 @@ body {
     border: 3px #6599b6 solid;
     transition: 0.5s;
     transform: rotate(1deg);
+    box-shadow: 0px 0px 43px 14px rgba(183, 183, 240, 0.63);
+    -webkit-box-shadow: 0px 0px 43px 14px rgba(183, 183, 240, 0.63);
+    -moz-box-shadow: 0px 0px 43px 14px rgba(183, 183, 240, 0.63);
 }
 .box2:active {
-    border: 3px #007ac5 solid;
+    border: 3px #e0f3ff solid;
     transition: 0.5s;
     transform: rotate(-1deg);
+    box-shadow: 0px 0px 33px 14px rgba(215, 215, 247, 0.833);
+    -webkit-box-shadow: 0px 0px 33px 14px rgba(228, 228, 255, 0.833);
+    -moz-box-shadow: 0px 0px 33px 14px rgba(232, 232, 255, 0.833);
 }
 .box-title {
     display: flex;
