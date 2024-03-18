@@ -100,7 +100,7 @@ body {
     cursor: pointer;
     transition: .5s;
 }
-.box2:hover {
+.box2:hover, .box3:hover {
     border: 3px #6599b6 solid;
     transition: 0.5s;
     transform: rotate(1deg);
@@ -108,7 +108,7 @@ body {
     -webkit-box-shadow: 0px 0px 43px 14px rgba(183, 183, 240, 0.63);
     -moz-box-shadow: 0px 0px 43px 14px rgba(183, 183, 240, 0.63);
 }
-.box2:active {
+.box2:active, .box3:active {
     border: 3px #e0f3ff solid;
     transition: 0.5s;
     transform: rotate(-1deg);
@@ -130,12 +130,12 @@ body {
     width: 95%;
     height: 25%;
 }
-#img-content {
+#img-content, #img-content2 {
     width: 100%;
     height: 92%;
     object-fit: contain;
 }
-#img-content:active {
+#img-content:active, #img-content2:active {
     opacity: .5;
     transition: .5s;
 }
@@ -190,7 +190,7 @@ a:hover {
     border-radius: 3px;
     width: 90%;
     margin: 0 auto;
-    height: 110vh;
+    height: 85vh;
     padding: 0;
 }
 .box-example {
@@ -207,7 +207,7 @@ a:hover {
 }
 .box-title1 {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     font-family: "Plus Jakarta Sans", sans-serif;
     color: white;
     font-size: 50px;
@@ -216,21 +216,22 @@ a:hover {
     padding: 0;
     font-weight: bolder;
     border: 3px white solid;
-    width: 90%;
-    height: 27%;
+    width: 95%;
+    height: 25%;
 }
 .box-text {
+    overflow-y: scroll;
     display: flex;
     justify-content: left;
-    font-family: ;
+    font-family: "Plus Jakarta Sans", sans-serif;
     color: white;
     font-size: 18px;
     font-weight: lighter;
     margin: 3% auto;
     padding: 0;
-    border: 4px white solid;
-    width: 90%;
-    height: 60%;
+    border: 3px white solid;
+    width: 95%;
+    height: 65%;
 }
 .box3 {
     margin: 0 auto;
