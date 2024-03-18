@@ -35,7 +35,52 @@ body {
     height: 80vh;
     padding: 0;
 }
+.star-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.star {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: twinkle 1s ease-in-out infinite alternate;
+}
+
+
+@keyframes twinkle {
+    from { opacity: 0.5; }
+    to { opacity: 1; }
+}
+.star:nth-child(1) {
+    top: 25%;
+    left: 55%;
+}
+
+.star:nth-child(2) {
+    top: 20%;
+    left: 80%;
+}
+
+.star:nth-child(3) {
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    animation-duration: 1.5s;
+}
+.star:nth-child(4) {
+    top: 50%;
+    left: 80%;
+    width: 10px;
+    height: 10px;
+    animation-duration: 1.5s;
+}
 .box1 {
     padding: 0;
     margin: 0px 0px 0px auto;

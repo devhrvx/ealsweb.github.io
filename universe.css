@@ -180,3 +180,69 @@ a:hover {
         flex-direction: column;
     }
 }
+.container1 {
+    display: flex;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    flex-direction: row-reverse;
+    border-top: 3px white solid;
+    border-radius: 3px;
+    width: 90%;
+    margin: 0 auto;
+    height: 110vh;
+    padding: 0;
+}
+.box-example {
+    margin: 0 auto;
+    height: 75vh;
+    width: 38%;
+    border: 3px white solid;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+}
+.box-title1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    font-size: 50px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 0;
+    font-weight: bolder;
+    border: 3px white solid;
+    width: 90%;
+    height: 27%;
+}
+.box-text {
+    display: flex;
+    justify-content: left;
+    font-family: ;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 3% auto;
+    padding: 0;
+    border: 4px white solid;
+    width: 90%;
+    height: 60%;
+}
+.box3 {
+    margin: 0 auto;
+    height: 70vh;
+    width: 58%;
+    border: 3px white solid;
+    border-radius: 10px;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+    transition: .5s;
+}
