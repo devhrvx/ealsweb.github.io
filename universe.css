@@ -177,7 +177,8 @@ a:hover {
 
 @media (max-width: 600px) {
     .container {
-        flex-direction: column;
+        flex-direction: row;
+        overflow: scroll;
     }
 }
 .container1 {
@@ -234,6 +235,7 @@ a:hover {
     height: 65%;
 }
 .box3 {
+    cursor: pointer;
     margin: 0 auto;
     height: 70vh;
     width: 58%;
