@@ -194,6 +194,7 @@ a:hover {
     border-radius: 3px;
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 70px;
     height: 75vh;
     padding: 0;
 }
@@ -205,7 +206,8 @@ a:hover {
     color: white;
     font-size: 50px;
     margin: auto;
-    margin-top: 2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
     padding: 0;
     font-weight: bolder;
     width: 95%;
@@ -214,11 +216,16 @@ a:hover {
 }
 
 .ppl-1, .ppl-2, .ppl-3 {
+    padding-top: 30px;
+    line-height: 20px;
+    text-align: left;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: transparent;
     background-repeat: no-repeat;
     margin: 0 auto;
     height: 60vh;
     width: 25%;
-    border-radius: 10px;
+    border-radius: 30px;
     display: block;
     flex-grow: 0;
     flex-shrink: 1;
@@ -226,28 +233,34 @@ a:hover {
     align-self: center;
     order: 0;
     cursor: pointer;
-    transition: .5s;
+    transition: .5s ease-in-out;
     margin: 0 auto;
 }
 .ppl-1 {
     background-image: url("images/hermann.jpg");
     background-size: 100%;
-    transition: .5s ease;
+    transition: .5s ease-in-out;
 }
 .ppl-2 {
     background-image: url("images/hoyle.jpg");
     background-size: 100%;
-    transition: .5s ease;
+    transition: .5s ease-in-out;
 }
 .ppl-3 {
     background-image: url("images/thomas.jpg");
     background-size: 100%;
-    transition: .5s ease;
+    transition: .5s ease-in-out;
 }
 .ppl-1:hover, .ppl-2:hover, .ppl-3:hover {
-    overflow-y: scroll;
+    color: black;
+    overflow-y: hidden;
     background-image: none;
     background-size: 100%;
-    background-color: #e4f6ffc2;
-    transition: .5s ease;
+    background-color: #ffffff;
+    transition: .5s ease-in-out;
+}
+#h-p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
 }
