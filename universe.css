@@ -129,6 +129,7 @@ body {
     border: 3px white transparent;
     width: 95%;
     height: 25%;
+    z-index: -1;
 }
 #img-content, #img-content2 {
     width: 100%;
@@ -176,70 +177,46 @@ a:hover {
 }
 
 @media (max-width: 600px) {
-    .container {
+    body {
         flex-direction: row;
         overflow: scroll;
     }
 }
-.container1 {
+
+.container-ppl {
+    flex-wrap: wrap;
     display: flex;
     justify-content: normal;
     align-items: normal;
     align-content: normal;
-    flex-direction: row-reverse;
+    flex-direction: row;
     border-top: 3px white solid;
     border-radius: 3px;
     width: 90%;
     margin: 0 auto;
-    height: 85vh;
+    height: 75vh;
     padding: 0;
 }
-.box-example {
-    margin: 0 auto;
-    height: 75vh;
-    width: 38%;
-    border: 3px white solid;
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: center;
-    order: 0;
-}
-.box-title1 {
+
+.ppl-title {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     font-family: "Plus Jakarta Sans", sans-serif;
     color: white;
     font-size: 50px;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 2%;
     padding: 0;
     font-weight: bolder;
-    border: 3px white solid;
     width: 95%;
-    height: 25%;
+    height: 12%;
+    z-index: -1;
 }
-.box-text {
-    overflow-y: scroll;
-    display: flex;
-    justify-content: left;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    color: white;
-    font-size: 18px;
-    font-weight: lighter;
-    margin: 3% auto;
-    padding: 0;
-    border: 3px white solid;
-    width: 95%;
-    height: 65%;
-}
-.box3 {
-    cursor: pointer;
+
+.ppl-1, .ppl-2, .ppl-3 {
     margin: 0 auto;
-    height: 70vh;
-    width: 58%;
-    border: 3px white solid;
+    height: 60vh;
+    width: 25%;
     border-radius: 10px;
     display: block;
     flex-grow: 0;
@@ -247,5 +224,29 @@ a:hover {
     flex-basis: auto;
     align-self: center;
     order: 0;
+    cursor: pointer;
     transition: .5s;
+    margin: 0 auto;
+}
+.ppl-1 {
+    background-image: url("hermann.jpg");
+    background-size: 100%;
+    transition: .5s ease;
+}
+.ppl-2 {
+    background-image: url("hoyle.jpg");
+    background-size: 100%;
+    transition: .5s ease;
+}
+.ppl-3 {
+    background-image: url("thomas.jpg");
+    background-size: 100%;
+    transition: .5s ease;
+}
+.ppl-1:hover, .ppl-2:hover, .ppl-3:hover {
+    overflow-y: scroll;
+    background-image: none;
+    background-size: 100%;
+    background-color: #e4f6ffc2;
+    transition: .5s ease;
 }

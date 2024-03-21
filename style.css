@@ -3,24 +3,23 @@ body {
     overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #6236f3ae; 
+    background: #fcfcfcae; 
   }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #b949b9c0; 
+    background: #f7f7f7c0; 
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #350075; 
-  }
-
+    background: #858585; 
+}
 .container {
     border-top: 3px white solid;
     border-radius: 3px;
@@ -165,6 +164,7 @@ h2 {
 }
 @media (max-width: 600px) {
     .container {
-        flex-direction: column;
+        flex-direction: row;
+        overflow: scroll;
     }
 }
