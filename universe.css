@@ -214,6 +214,7 @@ a:hover {
 }
 
 .ppl-1, .ppl-2, .ppl-3 {
+    background-repeat: no-repeat;
     margin: 0 auto;
     height: 60vh;
     width: 25%;
@@ -229,17 +230,17 @@ a:hover {
     margin: 0 auto;
 }
 .ppl-1 {
-    background-image: url("hermann.jpg");
+    background-image: url("images/hermann.jpg");
     background-size: 100%;
     transition: .5s ease;
 }
 .ppl-2 {
-    background-image: url("hoyle.jpg");
+    background-image: url("images/hoyle.jpg");
     background-size: 100%;
     transition: .5s ease;
 }
 .ppl-3 {
-    background-image: url("thomas.jpg");
+    background-image: url("images/thomas.jpg");
     background-size: 100%;
     transition: .5s ease;
 }

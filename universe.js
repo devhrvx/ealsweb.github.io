@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     imageContent1.addEventListener('click', function() {
         if (currentState) {
-            changePicture(imageContent1, 'steady-state.jpg');
+            changePicture(imageContent1, 'images/steady-state.jpg');
         } else {
-            changePicture(imageContent1, 'milky.jpg');
+            changePicture(imageContent1, 'images/milky.jpg');
         }
         currentState = !currentState;
     });
