@@ -3,7 +3,7 @@ body, html {
   padding: 0;
   height: 100%;
   overflow: auto;
-  zoom: 70%;
+  zoom: 68%;
 }
 .solar-system {
   width: 100%;
@@ -184,7 +184,7 @@ body, html {
         left: 52.1%;
         transform-origin: center;
         transform: translate(50%, -50%);
-        animation: orbitUranus 20s linear infinite;
+        animation: orbitUranus 23s linear infinite;
       } 
       @keyframes orbitUranus {
         from {
@@ -207,7 +207,7 @@ body, html {
         left: 52.1%;
         transform-origin: center;
         transform: translate(50%, -50%);
-        animation: orbitNeptune 20s linear infinite;
+        animation: orbitNeptune 27s linear infinite;
       } 
       @keyframes orbitNeptune {
         from {
