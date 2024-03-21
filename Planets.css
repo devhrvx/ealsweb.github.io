@@ -8,7 +8,7 @@ body, html {
 .solar-system {
   width: 100%;
   height: 100%;
-  background-image: url(images/spacee.png);
+  background-image: url(images/star.webp);
   position: absolute;
   perspective: 1000px;
 }
