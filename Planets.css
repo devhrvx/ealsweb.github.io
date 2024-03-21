@@ -3,7 +3,7 @@ body, html {
   padding: 0;
   height: 100%;
   overflow: auto;
-  zoom: 75%;
+  zoom: 70%;
 }
 .solar-system {
   width: 100%;
@@ -19,6 +19,7 @@ body, html {
   background-image: url(araaw.png);
   border-radius: 50%;
   background-size: cover;
+  box-shadow: -4px, 2px, 56px #f9c05f;
   position: absolute;
   top: 50%;
   left: 48%;
