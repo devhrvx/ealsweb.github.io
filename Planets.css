@@ -8,7 +8,7 @@ body, html {
 .solar-system {
   width: 100%;
   height: 100%;
-  background-image: url(space.webp);
+  background-image: url(images/spacee.png);
   position: absolute;
   perspective: 1000px;
 }
@@ -16,7 +16,7 @@ body, html {
 .sun {
   height: 170px;
   width: 170px;
-  background-image: url(araaw.png);
+  background-image: url(images/araaw.png);
   border-radius: 50%;
   background-size: cover;
   box-shadow: -4px, 2px, 56px #f9c05f;
