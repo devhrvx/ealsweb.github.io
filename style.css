@@ -1,5 +1,9 @@
 body {
     background-color: #000000;
+    background-image: url("images/spacee.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     overflow-x: hidden;
 }
 ::-webkit-scrollbar {

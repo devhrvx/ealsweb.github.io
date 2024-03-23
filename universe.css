@@ -1,5 +1,7 @@
 body {
     background-color: #000000;
+    background-image: url("images/spacee.png");
+    background-position: center;
     overflow-x: hidden;
 }
 ::-webkit-scrollbar {
@@ -55,7 +57,7 @@ body {
     margin: 0;
     font-size: 40px;
 }
-.container {
+.container, .container-2 {
     animation: loadAnim2 0.5s ease-out;
     display: flex;
     justify-content: normal;
@@ -86,6 +88,7 @@ body {
     order: 0;
 }
 .box2 {
+    background-color: #000000;
     margin: 0 auto;
     height: 70vh;
     width: 58%;
@@ -253,6 +256,7 @@ a:hover {
     transition: .5s ease-in-out;
 }
 .ppl-1:hover, .ppl-2:hover, .ppl-3:hover {
+    margin-top: -15px;
     filter: brightness(100%);
     color: black;
     overflow-y: hidden;
