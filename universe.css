@@ -257,12 +257,12 @@ a:hover {
 }
 .ppl-1:hover, .ppl-2:hover, .ppl-3:hover {
     margin-top: -15px;
-    filter: brightness(100%);
-    color: black;
+    filter: brightness(90%);
+    color: white;
+    text-shadow: 0 0 5px black;
     overflow-y: hidden;
-    background-image: none;
     background-size: 100%;
-    background-color: #ffffff;
+    background-color: #ffff001d;
     transition: .5s ease-in-out;
 }
 #h-p {
