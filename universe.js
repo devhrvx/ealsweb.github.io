@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (currentState2) {
             changePicture(imageContent2, 'images/milky.jpg');
         } else {
-            changePicture(imageContent2, 'images/uranus.png');
+            changePicture(imageContent2, 'images/pulsate.jpg');
         }
         currentState2 = !currentState2;
     });
