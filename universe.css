@@ -187,7 +187,7 @@ a:hover {
     }
 }
 
-.container-ppl {
+.container-ppl, .container-ppl2 {
     flex-wrap: wrap;
     display: flex;
     justify-content: normal;
@@ -203,7 +203,7 @@ a:hover {
     padding: 0;
 }
 
-.ppl-title {
+.ppl-title, .ppl-title2 {
     display: flex;
     justify-content: center;
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -219,7 +219,7 @@ a:hover {
     z-index: -1;
 }
 
-.ppl-1, .ppl-2, .ppl-3 {
+.ppl-1, .ppl-2, .ppl-3, .ppl-4 {
     filter: brightness(50%);
     padding: 30px 6px 6px 6px;
     line-height: 20px;
@@ -256,7 +256,12 @@ a:hover {
     background-size: 100%;
     transition: .5s ease-in-out;
 }
-.ppl-1:hover, .ppl-2:hover, .ppl-3:hover {
+.ppl-4 {
+    background-image: url("images/richard-tolman.jpg");
+    background-size: 100%;
+    transition: .5s ease-in-out;
+}
+.ppl-1:hover, .ppl-2:hover, .ppl-3:hover, .ppl-4:hover {
     margin-top: -15px;
     filter: brightness(90%);
     color: white;
