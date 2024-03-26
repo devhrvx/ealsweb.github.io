@@ -219,8 +219,8 @@ a:hover {
     z-index: -1;
 }
 
-.ppl-1, .ppl-2, .ppl-3, .ppl-4 {
-    filter: brightness(50%);
+.ppl-1, .ppl-2, .ppl-3, .ppl-4, .ppl-5, .ppl-6 {
+    filter: brightness(90%);
     padding: 30px 6px 6px 6px;
     line-height: 20px;
     text-align: left;
@@ -261,9 +261,19 @@ a:hover {
     background-size: 100%;
     transition: .5s ease-in-out;
 }
-.ppl-1:hover, .ppl-2:hover, .ppl-3:hover, .ppl-4:hover {
+.ppl-5 {
+    background-image: url("images/MIT.jpg");
+    background-size: 100%;
+    transition: .5s ease-in-out;
+}
+.ppl-6 {
+    background-image: url("images/ruth.jpeg");
+    background-size: 100%;
+    transition: .5s ease-in-out;
+}
+.ppl-1:hover, .ppl-2:hover, .ppl-3:hover, .ppl-4:hover, .ppl-5:hover, .ppl-6:hover {
     margin-top: -15px;
-    filter: brightness(90%);
+    filter: brightness(85%);
     color: white;
     text-shadow: 0 0 5px black;
     overflow-y: hidden;
