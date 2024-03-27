@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     imageContent3.addEventListener('click', function() {
         if (currentState3) {
-            changePicture(imageContent3, 'images/earth.png');
+            changePicture(imageContent3, 'images/big.png');
         } else {
             changePicture(imageContent3, 'images/bang.jpg');
         }
