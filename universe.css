@@ -57,7 +57,7 @@ body {
     margin: 0;
     font-size: 40px;
 }
-.container, .container-2 {
+.container, .container-2, .container-3 {
     animation: loadAnim2 0.5s ease-out;
     display: flex;
     justify-content: normal;
@@ -74,7 +74,7 @@ body {
 #header-txt {
     cursor: unset;
 }
-.box1 {
+.box1, .box-content3{
     
     margin: 0 auto;
     height: 75vh;
@@ -87,7 +87,7 @@ body {
     align-self: center;
     order: 0;
 }
-.box2 {
+.box2, .box4 {
     background-color: #000000;
     margin: 0 auto;
     height: 70vh;
@@ -103,7 +103,7 @@ body {
     cursor: pointer;
     transition: .5s;
 }
-.box2:hover, .box-img:hover {
+.box2:hover, .box-img:hover, .box4:hover {
     border: 3px #6599b6 solid;
     transition: 0.5s;
     transform: rotate(1deg);
@@ -111,7 +111,7 @@ body {
     -webkit-box-shadow: 0px 0px 43px 14px rgba(183, 183, 240, 0.63);
     -moz-box-shadow: 0px 0px 43px 14px rgba(183, 183, 240, 0.63);
 }
-.box2:active, .box-img:active {
+.box2:active, .box-img:active, .box4:active {
     border: 3px #e0f3ff solid;
     transition: 0.5s;
     transform: rotate(-1deg);
@@ -119,7 +119,7 @@ body {
     -webkit-box-shadow: 0px 0px 33px 14px rgba(228, 228, 255, 0.833);
     -moz-box-shadow: 0px 0px 33px 14px rgba(232, 232, 255, 0.833);
 }
-.box-title {
+.box-title, .box-title-2 {
     display: flex;
     justify-content: center;
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -134,13 +134,13 @@ body {
     height: 25%;
     z-index: -1;
 }
-#img-content, #img-content2 {
+#img-content, #img-content2, #img-content3 {
     border-radius: 30px;
     width: 100%;
     height: 92%;
     object-fit: contain;
 }
-#img-content:active, #img-content2:active {
+#img-content:active, #img-content2:active, #img-content3:active {
     opacity: .5;
     transition: .5s;
 }
@@ -156,7 +156,7 @@ p {
     margin-right: auto;
 
 }
-.box-content {
+.box-content{
     overflow-y: scroll;
     display: flex;
     justify-content: left;
@@ -170,7 +170,20 @@ p {
     width: 95%;
     height: 65%;
 }
-
+.box-content-2 {
+    overflow-y: scroll;
+    display: flex;
+    justify-content: left;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 1% auto;
+    padding: 0;
+    border: 3px white transparent;
+    width: 95%;
+    height: 65%;
+}
 a {
     text-decoration: none;
     color: #87ea98;
