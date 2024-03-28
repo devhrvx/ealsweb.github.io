@@ -5,7 +5,7 @@ body {
     overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 10px;
   }
   
   /* Track */
@@ -200,7 +200,7 @@ a:hover {
     }
 }
 
-.container-ppl, .container-ppl2 {
+.container-ppl, .container-ppl2, .bang-ppl {
     flex-wrap: wrap;
     display: flex;
     justify-content: normal;
@@ -208,15 +208,18 @@ a:hover {
     align-content: normal;
     flex-direction: row;
     border-top: 3px white solid;
+    /* border: 5px white solid; */
     border-radius: 3px;
     width: 90%;
     margin: 0 auto;
     margin-bottom: 70px;
-    height: 75vh;
+    height: 85vh;
     padding: 0;
 }
-
-.ppl-title, .ppl-title2 {
+.bang-ppl {
+    height: 170vh;
+}
+.ppl-title, .ppl-title2, .bangppl-hdr {
     display: flex;
     justify-content: center;
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -231,7 +234,14 @@ a:hover {
     height: 12%;
     z-index: -1;
 }
-
+.bangppl-hdr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: -6%;
+    /* border: 5px white solid; */
+    height: fit-content;
+}
 .ppl-1, .ppl-2, .ppl-3, .ppl-4, .ppl-5, .ppl-6 {
     filter: brightness(90%);
     padding: 30px 6px 6px 6px;
@@ -356,4 +366,31 @@ a:hover {
     border: 3px white transparent;
     width: 95%;
     height: 65%;
+}
+.per-one, .per-two, .per-three, .per-four{
+    filter: brightness(90%);
+    padding: 30px 6px 6px 6px;
+    line-height: 20px;
+    text-align: left;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: transparent;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 40%;
+    /* border: 5px white solid; */
+    border-radius: 30px;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    margin: 0 auto;
+}
+.per-one {
+    background-image: url("images/hoyle.jpg");
+    background-size: 100%;
+    transition: .5s ease-in-out;
 }
