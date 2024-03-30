@@ -207,7 +207,7 @@ a:hover {
     align-items: normal;
     align-content: normal;
     flex-direction: row;
-    border-top: 3px white solid;
+    /* border-top: 3px white solid; */
     /* border: 5px white solid; */
     border-radius: 3px;
     width: 90%;
@@ -366,31 +366,4 @@ a:hover {
     border: 3px white transparent;
     width: 95%;
     height: 65%;
-}
-.per-one, .per-two, .per-three, .per-four{
-    filter: brightness(90%);
-    padding: 30px 6px 6px 6px;
-    line-height: 20px;
-    text-align: left;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    color: transparent;
-    background-repeat: no-repeat;
-    height: 60vh;
-    width: 40%;
-    /* border: 5px white solid; */
-    border-radius: 30px;
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: center;
-    order: 0;
-    cursor: pointer;
-    transition: .5s ease-in-out;
-    margin: 0 auto;
-}
-.per-one {
-    background-image: url("images/hoyle.jpg");
-    background-size: 100%;
-    transition: .5s ease-in-out;
 }
