@@ -10,6 +10,7 @@ body {
   
   /* Track */
   ::-webkit-scrollbar-track {
+    border-radius: 5px;
     background: #fcfcfcae; 
   }
    
@@ -207,8 +208,8 @@ a:hover {
     align-items: normal;
     align-content: normal;
     flex-direction: row;
-    /* border-top: 3px white solid; */
-    /* border: 5px white solid; */
+    /* border-top: 3px white solid;
+    border: 5px white solid; */
     border-radius: 3px;
     width: 90%;
     margin: 0 auto;
@@ -217,7 +218,7 @@ a:hover {
     padding: 0;
 }
 .bang-ppl {
-    height: 170vh;
+    height: 85vh;
 }
 .ppl-title, .ppl-title2, .bangppl-hdr {
     display: flex;
@@ -242,7 +243,8 @@ a:hover {
     /* border: 5px white solid; */
     height: fit-content;
 }
-.ppl-1, .ppl-2, .ppl-3, .ppl-4, .ppl-5, .ppl-6 {
+.ppl-1, .ppl-2, .ppl-3, .ppl-4, .ppl-5, .ppl-6, .per-one, .per-two, .per-three {
+    overflow-y: hidden;
     filter: brightness(90%);
     padding: 30px 6px 6px 6px;
     line-height: 20px;
@@ -294,17 +296,33 @@ a:hover {
     background-size: 100%;
     transition: .5s ease-in-out;
 }
-.ppl-1:hover, .ppl-2:hover, .ppl-3:hover, .ppl-4:hover, .ppl-5:hover, .ppl-6:hover {
+.per-one {
+    background-image: url("images/richard-tolman.jpg");
+    background-size: 100%;
+    transition: .5s ease-in-out;
+}
+.per-two {
+    background-image: url("images/MIT.jpg");
+    background-size: 100%;
+    transition: .5s ease-in-out;
+}
+.per-three {
+    background-image: url("images/ruth.jpeg");
+    background-size: 100%;
+    transition: .5s ease-in-out;
+}
+.ppl-1:hover, .ppl-2:hover, .ppl-3:hover, .ppl-4:hover, .ppl-5:hover, .ppl-6:hover, .per-one:hover, .per-two:hover, .per-three:hover {
     margin-top: -15px;
     filter: brightness(85%);
     color: white;
     text-shadow: 0 0 5px black;
-    overflow-y: hidden;
+    overflow-y: scroll;
     background-size: 100%;
     background-color: #ffff001d;
     transition: .5s ease-in-out;
 }
 #h-p {
+    line-height: 45px;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: bolder;
     font-size: 40px;
