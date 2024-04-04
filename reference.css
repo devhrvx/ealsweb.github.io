@@ -1,7 +1,7 @@
 body {
     color: white;
-    background-color: black;
-    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("images/universe.jpg");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 a {
     cursor: pointer;
@@ -11,10 +11,10 @@ a {
 table {
     width: 95%;
     height: fit-content;
-    margin: 30px auto;
+    margin: 10px auto;
     border: solid white 3px;
 }
-tr, th, td {
+tr{
     border: solid white 3px;
 
 }
@@ -24,14 +24,65 @@ tr, th, td {
     font-weight: bolder;
     text-align: center;
 }
-#head {
-    text-align: center;
-    color: white;
-    font-weight: bolder;
-    font-size: 30px;
-}
 #head1, #head2 {
     color: white;
     font-weight: bolder;
     font-size: 15px;
 }
+.flex-container {
+    position: sticky;
+    margin: 0 auto;
+   /* border: white 5px solid; */
+    height: 10vh;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: normal;
+  }
+  
+  .flex-items:nth-child(1) {
+    padding: 0;
+    margin: auto;
+    /* border: white 3px solid; */
+    height: 8vh;
+    width: 25%;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-items: center;
+    align-self: auto;
+    order: 0;
+  }
+  button:hover {
+    box-shadow: 0 0 8px rgba(214, 127, 255, 0.526);
+    background-color: #45a049; /* Darker background color on hover */
+}
+  button {
+    padding: 10px 20px; /* Add padding for better appearance */
+    font-size: 16px; /* Adjust font size for readability */
+    background-color: #4CAF50; /* Set background color */
+    color: white; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+    top: 30;
+    /* margin-left: auto; */
+    margin-right: auto;
+  }
+  .flex-items:nth-child(2) {
+    margin: auto;
+    /* border: white 3px solid; */
+    height: 8vh;
+    width: 47%;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
