@@ -58,7 +58,7 @@ body {
     margin: 0;
     font-size: 40px;
 }
-.container, .container-2, .container-3 {
+.container, .container-2, .container-3, .cmb-box {
     animation: loadAnim2 0.5s ease-out;
     display: flex;
     justify-content: normal;
@@ -297,17 +297,17 @@ a:hover {
     transition: .5s ease-in-out;
 }
 .per-one {
-    background-image: url("images/richard-tolman.jpg");
+    background-image: url("images/lemaitre.png");
     background-size: 100%;
     transition: .5s ease-in-out;
 }
 .per-two {
-    background-image: url("images/MIT.jpg");
+    background-image: url("images/hubble.jpg");
     background-size: 100%;
     transition: .5s ease-in-out;
 }
 .per-three {
-    background-image: url("images/ruth.jpeg");
+    background-image: url("images/arnobert.jpg");
     background-size: 100%;
     transition: .5s ease-in-out;
 }
@@ -315,7 +315,7 @@ a:hover {
     margin-top: -15px;
     filter: brightness(85%);
     color: white;
-    text-shadow: 0 0 5px black;
+    text-shadow: 0 0 3px rgb(0, 0, 0);
     overflow-y: scroll;
     background-size: 100%;
     background-color: #ffff001d;
