@@ -3,6 +3,11 @@ body {
     background-color: black;
     font-family: 'Courier New', Courier, monospace;
 }
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #7bd3f1;
+}
 table {
     width: 95%;
     height: fit-content;
