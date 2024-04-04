@@ -1,0 +1,32 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+table {
+    width: 95%;
+    height: fit-content;
+    margin: 30px auto;
+    border: solid white 3px;
+}
+tr, th, td {
+    border: solid white 3px;
+
+}
+#content {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+#head {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+#head1, #head2 {
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+}
