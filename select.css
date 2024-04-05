@@ -1,3 +1,131 @@
 body {
     overflow-x: hidden;
+    background: #110c14;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background: #fcfcfcae; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #f7f7f7c0; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #858585; 
+}
+.heading {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+.flex-container {
+    margin: 0 auto;
+    height: 85vh;
+    width: 90%;
+    border: 2px white solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.flex-items {
+    border-radius: 32px;
+}
+
+.flex-items:nth-child(1) {
+    overflow-y: hidden;
+    padding: 30px 6px 6px 6px;
+    line-height: 20px;
+    text-align: left;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    color: transparent;
+    filter: brightness(0.9);
+    background: url("images/universe_lnd.jpg") no-repeat center center/cover;
+    height: 90%;
+    width: 35%;
+    /* border: 2px white solid; */
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+}
+.flex-items:nth-child(2) {
+    overflow-y: hidden;
+    padding: 0;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    border-radius: 30px;
+    color: white;
+    transition: .5s ease-in-out;
+    height: 20%;
+    width: 8%;
+    /* border: 2px white solid; */
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+
+} 
+.flex-items:nth-child(3) {
+    overflow-y: hidden;
+    padding: 30px 6px 6px 6px;
+    line-height: 20px;
+    text-align: left;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    color: transparent;
+    filter: brightness(0.9);
+    background: url("images/solar_lnd.jpg") no-repeat center center/cover;
+    height: 90%;
+    width: 35%;
+    /* border: 2px white solid; */
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+}
+.flex-items:nth-child(odd):hover {
+    filter: brightness(1);
+    color: white;
+    text-shadow: 0 0 3px rgb(0, 0, 0);
+    overflow-y: auto;
+    background-color: #1111041d;
+    transition: .5s ease-in-out;
 }

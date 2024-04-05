@@ -16,6 +16,7 @@ body {
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
     background: #f7f7f7c0; 
   }
   
@@ -158,7 +159,7 @@ p {
 
 }
 .box-content{
-    overflow-y: scroll;
+    overflow-y: auto;
     display: flex;
     justify-content: left;
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -172,7 +173,7 @@ p {
     height: 65%;
 }
 .box-content-2 {
-    overflow-y: scroll;
+    overflow-y: auto;
     display: flex;
     justify-content: left;
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -316,7 +317,7 @@ a:hover {
     filter: brightness(85%);
     color: white;
     text-shadow: 0 0 3px rgb(0, 0, 0);
-    overflow-y: scroll;
+    overflow-y: auto;
     background-size: 100%;
     background-color: #ffff001d;
     transition: .5s ease-in-out;
@@ -372,7 +373,7 @@ a:hover {
     z-index: -1;
 }
 .pulsating-text {
-    overflow-y: scroll;
+    overflow-y: auto;
     display: flex;
     justify-content: left;
     font-family: "Plus Jakarta Sans", sans-serif;
