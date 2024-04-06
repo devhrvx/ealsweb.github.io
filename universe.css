@@ -136,13 +136,13 @@ body {
     height: 25%;
     z-index: -1;
 }
-#img-content, #img-content2, #img-content3 {
+#img-content, #img-content2, #img-content3, #img-content4 {
     border-radius: 30px;
     width: 100%;
     height: 92%;
     object-fit: contain;
 }
-#img-content:active, #img-content2:active, #img-content3:active {
+#img-content:active, #img-content2:active, #img-content3:active, #img-content4:active {
     opacity: .5;
     transition: .5s;
 }
@@ -328,7 +328,7 @@ a:hover {
     font-weight: bolder;
     font-size: 40px;
 }
-.box-img {
+.box-img, .cmb-imgbox {
     background-color: #000000;
     margin: 0 auto;
     height: 70vh;
@@ -344,7 +344,7 @@ a:hover {
     cursor: pointer;
     transition: .5s;    
 }
-.box-content2 {
+.box-content2, .cmb-content {
     
     margin: 0 auto;
     height: 75vh;
@@ -366,7 +366,6 @@ a:hover {
     margin: auto;
     margin-top: 5%;
     padding: 0;
-    font-weight: bolder;
     border: 3px white transparent;
     width: 95%;
     height: 25%;
@@ -387,32 +386,18 @@ a:hover {
     width: 95%;
     height: 65%;
 }
-.cmb-imgbox {
-    background-color: ;
-    margin: 0 auto;
-    height: 70vh;
-    width: 58%;
-    border: 3px white solid;
-    border-radius: 10px;
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: center;
-    order: 0;
-    cursor: pointer;
-    transition: .5s;    
-}
-.cmb-content {
-    
-    margin: 0 auto;
-    height: 75vh;
-    width: 38%;
+.pulsating-header2 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    margin: auto;
+    margin-top: 5%;
+    padding: 0;
     border: 3px white transparent;
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: center;
-    order: 0;
+    width: 95%;
+    height: 25%;
+    z-index: -1;
+    font-weight: bolder
 }

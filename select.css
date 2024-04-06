@@ -1,6 +1,6 @@
 body {
     overflow-x: hidden;
-    background: #110c14;
+    background: #000000;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 ::-webkit-scrollbar {
@@ -43,7 +43,7 @@ h1 {
     margin: 0 auto;
     height: 85vh;
     width: 90%;
-    border: 2px white solid;
+    /* border: 2px white solid; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -52,8 +52,9 @@ h1 {
     align-content: center;
 }
 
-.flex-items {
+.flex-items:nth-child(odd) {
     border-radius: 32px;
+    box-shadow: 0px 0px 7px 3px #728891af;
 }
 
 .flex-items:nth-child(1) {
@@ -62,7 +63,6 @@ h1 {
     line-height: 20px;
     text-align: left;
     font-family: "Plus Jakarta Sans", sans-serif;
-    border-radius: 30px;
     cursor: pointer;
     transition: .5s ease-in-out;
     color: transparent;
@@ -121,11 +121,19 @@ h1 {
     align-self: center;
     order: 0;
 }
+#h-p {
+    line-height: 45px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
 .flex-items:nth-child(odd):hover {
     filter: brightness(1);
     color: white;
     text-shadow: 0 0 3px rgb(0, 0, 0);
     overflow-y: auto;
+    scale: 1.009;
     background-color: #1111041d;
+    box-shadow: 0px 0px 10px 10px #d0ecf7ab;
     transition: .5s ease-in-out;
 }
