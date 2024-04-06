@@ -401,3 +401,25 @@ a:hover {
     z-index: -1;
     font-weight: bolder
 }
+button {
+    box-shadow: 5px 4px 5px 0px rgba(207, 207, 207, 0.75);
+    cursor: pointer;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 23px;
+    border: none;
+    color: #1d1d1d;
+    transition: .5s ease-in-out;
+    background-color: #d2a3f1;
+    width: 158px;
+    height: 45px;
+    margin-bottom: 30px;
+}
+button:hover {
+    scale: 1.009;
+    box-shadow: -5px 4px 5px 0px rgba(128, 128, 128, 0.75);
+    background-color: #30368d;
+    color: #f8f8f8;
+    transition: .5s ease-in-out;
+}
