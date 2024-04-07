@@ -1,10 +1,11 @@
 body {
     background-color: #000000;
     background-repeat: no-repeat;
-    /* background-image: url("images/spacee.png"); */
     background-size: cover;
-    background-position: center;
-    overflow-x: hidden;
+    background-image: url("images/index-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-x: hidden
 }
 ::-webkit-scrollbar {
     width: 8px;
@@ -26,7 +27,7 @@ body {
 }
 .container {
     /* background-color: #000000; */
-    border-top: 3px white solid;
+    /* border-top: 3px white solid; */
     border-radius: 3px;
     display: flex;
     justify-content: normal;
@@ -36,24 +37,10 @@ body {
     /* border: 5px white solid; */
     width: 90%;
     margin: 68px auto;
-    height: 80vh;
+    height: auto;
     padding: 0;
-}
-.star-container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.star {
-    width: 10px;
-    height: 10px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    animation: twinkle 1s ease-in-out infinite alternate;
+    margin-top: 40px;
+    margin-bottom: 0;
 }
 .box1 video {
     margin-top: 30px;
@@ -152,7 +139,7 @@ h2 {
     border-radius: 25px;
 }
 #explore-btn:hover {
-    background-color: #a78cbe;
+    background-color: #5d3f77;
     top: 28%;
     transition: 0.3s;
 }
@@ -175,9 +162,64 @@ h2 {
         transform: scale(1);
     }
 }
-@media (max-width: 600px) {
-    .container {
-        flex-direction: row;
-        overflow: scroll;
-    }
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 9vh;
+    width: 70%;
+    /* border: 1px white solid; */
+    margin: 0 auto;
+  }
+  
+.flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+  
+.flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+  
+.flex-items:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+img {
+    transform: scale(1);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+img:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+
+}
+#git {
+    width: 115px;
+    height: 30px;
+}
+#sti {
+    width: 70px;
+    height: 38px;
+}
+#ref {
+    width: 110px;
+    height: 54px;
 }
