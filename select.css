@@ -1,6 +1,9 @@
 body {
     overflow-x: hidden;
-    background: #000000;
+    background-color: #000000;
+    background-image: url("images/Untitled.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 ::-webkit-scrollbar {
