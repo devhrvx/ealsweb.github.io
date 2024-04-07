@@ -14,12 +14,20 @@
     <div class="heading"><h1>Where would you like to go?</h1></div>
     <div class="flex-container">
         <div class="flex-items" onclick="window.location.href = 'universe.html'">
-            <br><br><br><span id="h-p">Creation of the Universe</span><br><br><br><br>Creation of the cosmos Travel back in time and space to learn about the beginning of the cosmos stars, galaxies, and other cosmic entities that illuminate the night sky. <br><br>Examine the beginnings of the universe then dive into the many hypotheses put forth by our esteemed scientists, theories that educate a lot of people. <br>Discover and learn about the possibilities of the origins of our universe. <br><br>Hold and click the panel to continue.
+            <br><br><span id="h-p">Creation of the Universe</span><br><br><br><br>Creation of the cosmos Travel back in time and space to learn about the beginning of the cosmos stars, galaxies, and other cosmic entities that illuminate the night sky. <br><br>Examine the beginnings of the universe then dive into the many hypotheses put forth by our esteemed scientists, theories that educate a lot of people. <br>Discover and learn about the possibilities of the origins of our universe. <br><br>Hold and click the panel to continue.
         </div>
         <div class="flex-items">Or</div>
         <div class="flex-items" onclick="window.location.href = 'solar-system.html'">
             <br><br><br><span id="h-p">Creation of the Solar System</span><br><br><br><br>Our solar system formed about 4.5 billion years ago from the dense cloud of interstellar of gas and dust. The clouds collapsed into a spinning disk. In the center, material gathered to the form of the Sun. The dust clumps made planets, moons, and asteroids that revolve around the majestic sun. <br><br>If you want to learn more about our solar system—hold and click this panel to start the journey.
         </div>
      </div>
+     <center><p>Press backspace to go back.</p></center>
+     <script>
+        document.addEventListener('keydown', function(event) {
+            if (event.keyCode == 8) {
+                window.location.href = 'index.html';
+            }
+        });
+     </script>
 </body>
 </html>

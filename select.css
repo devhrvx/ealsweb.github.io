@@ -39,7 +39,7 @@ body {
 h1 {
     font-size: 2.5rem;
     font-weight: 700;
-    margin-top: 1.5rem;
+    margin-top: 10px;
     margin-bottom: .5rem;
 }
 .flex-container {
@@ -71,7 +71,7 @@ h1 {
     color: transparent;
     filter: brightness(0.9);
     background: url("images/universe_lnd.jpg") no-repeat center center/cover;
-    height: 90%;
+    height: 85%;
     width: 35%;
     /* border: 2px white solid; */
     display: block;
@@ -114,7 +114,7 @@ h1 {
     color: transparent;
     filter: brightness(0.9);
     background: url("images/solar_lnd.jpg") no-repeat center center/cover;
-    height: 90%;
+    height: 85%;
     width: 35%;
     /* border: 2px white solid; */
     display: block;
@@ -173,4 +173,11 @@ h1 {
     background-color: #1111041d;
     box-shadow: 0px 0px 10px 10px #f8bb60ab;
     transition: .5s ease-in-out;
+}
+p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 13px;
+    color: white;
+    font-weight: lighter;
+    margin: 0;
 }
