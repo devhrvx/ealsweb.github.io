@@ -129,11 +129,45 @@ h1 {
 }
 .flex-items:nth-child(odd):hover {
     filter: brightness(1);
-    color: white;
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 3px rgb(0, 0, 0);
     overflow-y: auto;
     scale: 1.009;
     background-color: #1111041d;
     box-shadow: 0px 0px 10px 10px #d0ecf7ab;
+    transition: .5s ease-in-out;
+}
+
+.flex-items:nth-child(odd):active {
+    filter: brightness(1);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px rgb(0, 0, 0);
+    overflow-y: auto;
+    scale: 1.009;
+    rotate: 1deg;
+    background-color: #1111041d;
+    box-shadow: 0px 0px 10px 10px #76c9ebab;
+    transition: .5s ease-in-out;
+}
+.flex-items:nth-child(3):hover {
+    filter: brightness(1);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px rgb(0, 0, 0);
+    overflow-y: auto;
+    scale: 1.009;
+    background-color: #1111041d;
+    box-shadow: 0px 0px 10px 10px #d0ecf7ab;
+    transition: .5s ease-in-out;
+}
+
+.flex-items:nth-child(3):active {
+    filter: brightness(1);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px rgb(0, 0, 0);
+    overflow-y: auto;
+    scale: 1.009;
+    rotate: 1deg;
+    background-color: #1111041d;
+    box-shadow: 0px 0px 10px 10px #f8bb60ab;
     transition: .5s ease-in-out;
 }
