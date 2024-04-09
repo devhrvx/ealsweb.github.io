@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     'slide3',
     'slide4',
     'title'];
-    var imgArr1 = ['', '','', '', ''];
+    var imgArr1 = ['images/1_sn.png', 'images/2_sn.png','images/3_sn.png', 'images/4_sn.png', 'images/sn_ttl.png'];
     var currentIndex1 = 3;
 
     function changeImages(index, images, texts, target, targetTxt) {
