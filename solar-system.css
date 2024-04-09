@@ -1,6 +1,10 @@
 body {
     background-color: #000000;
     color: white;
+    background-image: url('images/solar_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 .hdr-main {
@@ -9,7 +13,7 @@ body {
     align-self: center;
     align-content: center;
     font-weight: bolder;
-    font-size: 2.5rem;
+    font-size: 3rem;
     display: flex;
     flex: 1;
     width: 90%;
@@ -17,7 +21,8 @@ body {
     /* border: 1px solid white; */
 }
 .container {
-    background-color: black;
+  color: transparent;
+    background-color: rgba(0, 0, 0, 0.671);
     /* border: 1px white solid; */
     border-radius: 32px;
     display: flex;
@@ -28,11 +33,17 @@ body {
     align-items: center;
     align-content: center;
     width: 90%;
-    height: 98vh;
+    height: 80vh;
     margin: 20px auto 0px auto;
 }
-
+.container:hover {
+  color: white;
+  transition: 0.5s ease;
+}
 .container-img {
+  background-color: #000000;
+  scale: 0.9;
+  transition: 0.5s ease;
     border: 1px white solid;
     border-radius: 18px;
     display: block;
@@ -44,20 +55,48 @@ body {
 }
 
 .container-txt {
+  transition: 0.5s ease;
   font-size: 110%;
   overflow-y: auto;
   overflow-x: hidden;
   justify-content: center;
   border-radius: 18px;
   padding: 5px 10px;
-  border: 1px white solid;
+  /* border: 1px white solid; */
   display: flex;
   align-items: center;
   width: 85%;
   height: 25%; 
 }
-.container:nth-child(2) > .container-img {
-  background-image: url('images/1_enc.png');
+.container-img:hover {
+  scale: 1;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 0 10px 5px white;
+
+}
+button {
+  box-shadow: 5px 4px 5px 0px rgba(207, 207, 207, 0.75);
+  cursor: pointer;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 23px;
+  border: none;
+  color: #d8d8d8;
+  transition: .5s ease-in-out;
+  background-color: #141414;
+  width: 158px;
+  height: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+button:hover {
+  scale: 1.009;
+  box-shadow: -5px 4px 5px 0px rgba(128, 128, 128, 0.75);
+  background-color: #d8d8d8;
+  color: #141414;
+  transition: .5s ease-in-out;
 }
 ::-webkit-scrollbar {
     width: 10px;
