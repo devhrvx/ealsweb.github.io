@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     'About 10% of material in the collapsing cloud formed into a flat disk around our Sun, the disk is called the protoplanetary disk, and it was made up from gas and dust. Within this disk, collisions and gravitational interactions led to the formation of larger clumps of material called protoplanets.',
     'The protoplanets were the planets we see today from the outside of our World , like Mars, Jupiter, and others. Not all the material in the protoplanetary disk was incorporated into planets, some of it remained as smaller bodies like comets and asteroids.',
     'The protoplanet hypothesis suggests that a great cloud of gas and dust of at least 10,000 million kilometers in diameter rotated slowly in space about 5,000 million years ago.'];
-    var imgArr1 = ['images/1_pro.png', 'images/2_pro.png','images/3_pro.png', '', 'images/pro_ttl.png'];
+    var imgArr1 = ['images/1_pro.png', 'images/2_pro.png','images/3_pro.png', 'images/4_pro.png', 'images/pro_ttl.png'];
     var currentIndex1 = 3;
 
     function changeImages(index, images, texts, target, targetTxt) {
