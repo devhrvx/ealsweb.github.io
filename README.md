@@ -2,7 +2,7 @@
 This is a project to submit for our iLS (I-learn-and-share> or performance task in Earth and Life Science 2nd Semester 3rd Quarter of Grade 11 ICT A.Y. 2023-2024<br/>
 This tackles **The Origin and Structure of The Universe and Solar System**.<br/>
 
-  <kbd>Members</kbd></br>
+ &nbsp;&nbsp;&nbsp;&nbsp;<kbd>Members</kbd></br>
 Salinas, John Harvey C.<br/>
 Pilon, Jan Keith D.<br/>
 Gamboa, David Gabriel B.<br/>
@@ -14,7 +14,7 @@ Tañeza, Kobby M.<br/>
 Cabiling, Prince Hennessy D.<br/>
 Malay, Benedict Lee G.<br/>
 <br/>
-  <kbd>Code Contributors/Programmers</kbd><br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;<kbd>Code Contributors/Programmers</kbd><br/>
 [hrvyCased](https://github.com/hrvyCased) - Salinas, John Harvey C.<br/>
 [Gab102323](https://github.com/Gab102323) - Gamboa, David Gabriel B.<br/>
 [kateuz](https://github.com/kateuz) - Pilon, Jan Keith D.<br/>
