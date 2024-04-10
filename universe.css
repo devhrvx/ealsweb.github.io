@@ -266,40 +266,35 @@ a:hover {
     cursor: pointer;
     transition: .5s ease-in-out;
     margin: 0 auto;
+    background-size: cover;
 }
 .ppl-1 {
     background-image: url("images/hermann.jpg");
-    background-size: 100%;
     transition: .5s ease-in-out;
 }
 .ppl-2 {
     background-image: url("images/hoyle.jpg");
-    background-size: 100%;
     transition: .5s ease-in-out;
 }
 .ppl-3 {
     background-image: url("images/thomas.jpg");
-    background-size: 100%;
     transition: .5s ease-in-out;
 }
 .ppl-4 {
     background-image: url("images/richard-tolman.jpg");
-    background-size: 100%;
+
     transition: .5s ease-in-out;
 }
 .ppl-5 {
     background-image: url("images/MIT.jpg");
-    background-size: 100%;
     transition: .5s ease-in-out;
 }
 .ppl-6 {
     background-image: url("images/ruth.jpeg");
-    background-size: 100%;
     transition: .5s ease-in-out;
 }
 .per-one {
     background-image: url("images/lemaitre.png");
-    background-size: 100%;
     transition: .5s ease-in-out;
 }
 .per-two {
@@ -309,7 +304,6 @@ a:hover {
 }
 .per-three {
     background-image: url("images/arnobert.jpg");
-    background-size: 100%;
     transition: .5s ease-in-out;
 }
 .ppl-1:hover, .ppl-2:hover, .ppl-3:hover, .ppl-4:hover, .ppl-5:hover, .ppl-6:hover, .per-one:hover, .per-two:hover, .per-three:hover {
