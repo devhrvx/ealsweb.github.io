@@ -15,7 +15,7 @@ Cabiling, Prince Hennessy D.<br/>
 Malay, Benedict Lee G.<br/>
 <br/>
  &nbsp;&nbsp;&nbsp;&nbsp;<kbd>Code Contributors/Programmers</kbd><br/>
-[hrvyCased](https://github.com/hrvyCased) - Salinas, John Harvey C.<br/>
+[devhrvx](https://github.com/devhrvx) - Salinas, John Harvey C.<br/>
 [Gab102323](https://github.com/Gab102323) - Gamboa, David Gabriel B.<br/>
 [kateuz](https://github.com/kateuz) - Pilon, Jan Keith D.<br/>
 <br/>
